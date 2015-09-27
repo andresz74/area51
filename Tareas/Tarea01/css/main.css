@@ -194,12 +194,12 @@ header h1 {
 .lista {
 	display: block;
 	margin-top: 20px;
-	list-style-type: square;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
+
 }
-.lista li {
-	line-height: 1.5;
-}
+.lista li {line-height: 1.5;padding-left: 1em;
+   text-indent: -1em;}
+.lista li:before {content: ">"; margin-right: 15px;}
 
 footer {
 	padding-top: 20px;
