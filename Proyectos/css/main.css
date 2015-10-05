@@ -1,0 +1,45 @@
+body {font-family: 'Open Sans', sans-serif;font-size: 14px;color: #272727;}
+
+a {color: #ACC1C2}
+
+.uppercase {text-transform: uppercase!important;}
+.violet {color: #681C3B!important;}
+.orange {color: #EC7F18!important;}
+.gold {color: #C6B444!important;}
+.text-normal {font-weight: 400;}
+.text-bold {font-weight: 700;}
+
+.wrapper {width: 970px;margin: 0 auto;}
+
+header {}
+
+header h1 {height: 110px;}
+
+.menu {list-style-type: none;display: block;width: 100%;border: 1px solid #D5D5D5; font-size: 0.9em}
+.menu li {display: inline-block;vertical-align: top;padding: 4px 24px;margin: 7px 0;border-right: 1px solid #D5D5D5;font-weight: 700;}
+.menu li a {text-decoration: none;color: #5D5D5B;}
+.menu li.active a {color: #C7C7C7;}
+
+.main-banner {display: block;height: 435px;position: relative;}
+.main-banner > .active {display: block;}
+
+.tab-banner {display:none; height: 365px;position: relative;}
+.tab-banner img {position: absolute;bottom: 0;right: 20px;z-index: 10;}
+.tab-banner h2 {font-size: 44px;width: 55%;font-weight: 300;color: #C7C7C7;line-height: 50px;position:absolute;top:50px;left:45px;z-index: 20;}
+.tab-banner h2 .text-normal {display:block;font-size: 40px;line-height: 40px;}
+.tab-banner a {text-transform: uppercase;position: absolute;bottom: 50px;left: 45px;}
+
+.opt-banner {text-align: center;position: relative;width: 100%;height: 70px;border: 1px solid #D5D5D5;z-index: 30;}
+.ui-tab {
+	display: inline-block;vertical-align: top;width:130px;height: 130px;text-align: center;text-transform: uppercase;color: #fff;padding: 55px 0;font-weight: 700;
+	position: relative;bottom: 65px;border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%;
+}
+#tab1 {background-color: #681C3B;}
+#tab2 {background-color: #EC7F18;}
+#tab3 {background-color: #C6B444;}
+
+.ui-experience {text-align: center;height: 230px;border: 1px solid #D5D5D5;border-top: 0;}
+.ui-experience h2 {color: #C7C7C7;width: 40%;margin: 0 auto;font-size: 24px;padding-top: 25px;padding-bottom: 10px;}
+.ui-experience article {display: inline-block;vertical-align: top; width: 24%;text-align: left;}
+.ui-experience article > a {text-transform: uppercase;}
