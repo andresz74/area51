@@ -6,15 +6,16 @@
 	<title>Point</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 	<div class="wrapper">
 		<header>
-			<h1><img src="" alt=""></h1>
-			<nav class="menu">
-				<ul>
+			<h1><img src="img/logo2.png" alt=""></h1>
+			<nav class="nav-menu">
+				<ul class="menu">
 					<li class="active"><a href="#">home</a></li>
 					<li><a href="#">about</a></li>
 					<li><a href="#">services</a></li>
@@ -48,102 +49,118 @@
 		</div>
 
 		<div class="ui-experience">
-			<h2>Our experience is the base for your innovation</h2>
-			<article>
-				<span>A.</span>
-				<span>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</span>
-				<a href="#">Read more</a>
+			<h2>Our experience is the base for your innovations</h2>
+			<article class="grid20 violet">
+				<span class="ui-exp-item">A.</span>
+				<span class="ui-exp-desc">
+					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+					<a href="#">Read more</a>
+				</span>
 			</article>
-			<article>
-				<span>B.</span>
-				<span>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</span>
-				<a href="#">Read more</a>
+			<article class="grid20 orange">
+				<span class="ui-exp-item">B.</span>
+				<span class="ui-exp-desc">
+					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+					<a href="#">Read more</a>
+				</span>
 			</article>
-			<article>
-				<span>C.</span>
-				<span>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</span>
-				<a href="#">Read more</a>
+			<article class="grid20 gold">
+				<span class="ui-exp-item">C.</span>
+				<span class="ui-exp-desc">
+					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+					<a href="#">Read more</a>
+				</span>
 			</article>
-			<article>
-				<span>D.</span>
-				<span>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</span>
-				<a href="#">Read more</a>
+			<article class="grid22 silver">
+				<span class="ui-exp-item">D.</span>
+				<span class="ui-exp-desc">
+					Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+					<a href="#">Read more</a>
+				</span>
 			</article>
 		</div>
 
-		<article>
-			<h2>Welcome to our company!</h2>
-			<p><a href="#">Click here</a> enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-			<div>
-				<img src="" alt="">
-				<span>Sara Green</span>
-				<span>Manager</span>
-			</div>
-			<div>
-				<img src="" alt="">
-				<span>Tom Smith</span>
-				<span>Manager</span>
-			</div>
-			<div>
-				<img src="" alt="">
-				<span>April Black</span>
-				<span>Manager</span>
-			</div>
-		</article>
+		<section class="main-container">
 
-		<aside>
-			<article>
-				<h2>Lastest News</h2>
-				<time>Nov. 25, 2012</time>
-				<p>as.a,s.</p>
+			<article class="ui-container">
+				<h2>Welcome to our company!</h2>
+				<p><a href="#">Click here</a> enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+				<div id="staff1" class="staff">
+					<img src="img/img1.jpg" alt="">
+					<span class="staff-name">Sara Green</span>
+					<span class="staff-pos">Manager</span>
+				</div>
+				<div id="staff2" class="staff">
+					<img src="img/img2.jpg" alt="">
+					<span class="staff-name">Tom Smith</span>
+					<span class="staff-pos">Manager</span>
+				</div>
+				<div id="staff3" class="staff">
+					<img src="img/img3.jpg" alt="">
+					<span class="staff-name">April Black</span>
+					<span class="staff-pos">Manager</span>
+				</div>
 			</article>
-			<article>
+		
+
+			<aside class="ui-sidebar">
 				<h2>Lastest News</h2>
-				<time>Nov. 25, 2012</time>
-				<p>as.a,s.</p>
-			</article>
-			<a href="#">Read more</a>
-		</aside>
+				<article>
+					<time>Nov. <span>25</span>, 2012</time>
+					<p>Lorem ipsum dolor sit amet, <a href="#">consectetuer</a> adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				</article>
+				<hr>
+				<article>
+					<time>Nov. <span>25</span>, 2012</time>
+					<p>Lorem ipsum dolor sit amet, <a href="#">consectetuer</a> adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				</article>
+				<a class="readmore" href="#">Read more</a>
+			</aside>
+
+		</section>
 
 
 		<footer>
-			<div> <!-- columnas -->
+			<div class="ui-footer-cols"> <!-- columnas -->
 
-				<div> <!-- columna 1 -->
+				<article class="grid20"> <!-- columna 1 -->
 					<h2>Services</h2>
 					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
 					</ul>
-				</div> <!-- fin columna 1 -->
+				</article> <!-- fin columna 1 -->
 
-				<div> <!-- columna 2 -->
+				<article class="grid20"> <!-- columna 2 -->
 					<h2>Solutions</h2>
 					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
 					</ul>
-				</div> <!-- fin columna 2 -->
+				</article> <!-- fin columna 2 -->
 
-				<div> <!-- columna 3 -->
+				<article class="grid20"> <!-- columna 3 -->
 					<h2>Programs</h2>
 					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
+						<li><a href="#">Phasellus viverra nulla ut</a></li>
 					</ul>
-				</div> <!-- fin columna 3 -->
+				</article> <!-- fin columna 3 -->
 
-				<div> <!-- columna 3 -->
+				<article class="grid22"> <!-- columna 4 -->
 					<h2>Testimonials</h2>
-					<p></p>
-					<span>April Black (Manager)</span>
-				</div> <!-- fin columna 3 -->
+					<blockquote>
+						Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+						<div class="arrow"></div>
+					</blockquote>
+					<span class="bq-author"><span>April Black</span> (Manager)</span>
+				</article> <!-- fin columna 4 -->
 
 			</div> <!-- fin columnas -->
 

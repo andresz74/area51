@@ -1,0 +1,58 @@
+@media (max-width: 970px) {
+
+}
+
+@media (max-width: 768px) {
+	.wrapper {width: 768px;}
+	.grid20 {width: 48%;}
+	.grid22 {width: 48%;}
+
+	.tab-banner img {width: 60%}
+	.tab-banner h2 {font-size: 39px;line-height: 45px;}
+	.tab-banner h2 .text-normal {font-size: 35px;line-height: 35px;}
+	.tab-banner a {bottom: 100px;}
+
+	.ui-experience h2 {width: 50%;}
+
+	.ui-footer-cols > article {margin-bottom: 20px;}
+}
+
+@media (max-width: 640px) {
+	.wrapper {width: 640px;}
+	
+	.tab-banner img {width: 64%}
+	.tab-banner h2 {font-size: 30px;line-height: 35px}
+	.tab-banner h2 .text-normal {font-size: 25px;line-height: 25px;}
+	.ui-tab {width: 100px;height: 100px;padding: 40px 0;font-size: 13px;}
+
+	.ui-container {display: block;width: 100%}
+
+	.ui-sidebar {display: block;width: 100%;text-align: center; margin-top: 20px;}
+	.ui-sidebar > h2 {text-align: left;}
+	.ui-sidebar > article {display: inline-block;vertical-align: top;width: 47%;text-align: left;}
+	.ui-sidebar > hr {display: none;}
+}
+
+@media (max-width: 480px) {
+	.wrapper {width: 480px;}
+	.menu li {display: block;border: 0;}
+	
+	.tab-banner {height: 300px;}
+	.tab-banner img {width: 75%;right: 0;}
+	.tab-banner h2 {font-size: 25px;line-height:30px;top:20px;left:15px;}
+	.tab-banner h2 .text-normal {font-size: 20px; line-height: 20px;}
+	.tab-banner a {bottom: 150px; left: 15px;}
+
+	.ui-experience {padding:20px;}
+	.ui-experience h2 {width: 100%;}
+
+	.main-container {padding: 20px;}
+
+	.ui-footer-cols > article {margin-bottom: 20px;display: block;}
+	.ui-footer-cols > article.grid20 {width: 100%;}
+	.ui-footer-cols > article.grid22 {width: 100%;}
+}
+
+@media (max-width: 320px) {
+
+}
