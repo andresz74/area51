@@ -2,6 +2,19 @@ body {font-family: 'Open Sans', sans-serif;font-size: 14px;color: #272727;}
 
 a {color: #ACC1C2}
 
+@font-face {
+    font-family: 'icomoon-freeregular';
+    src: url('../font/icomoon.eot');
+    src: url('../font/icomoon.eot?#iefix') format('embedded-opentype'),
+         url('../font/icomoon.woff2') format('woff2'),
+         url('../font/icomoon.woff') format('woff'),
+         url('../font/icomoon.ttf') format('truetype'),
+         url('../font/icomoon.svg#icomoon-freeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .uppercase {text-transform: uppercase!important;}
 .violet {color: #661E3B!important;}
 .orange {color: #EC7F18!important;}
@@ -16,10 +29,11 @@ a {color: #ACC1C2}
 .grid22 {width: 32%;}
 
 
-header {}
-
+header {position: relative;}
 header > h1 {height: 110px;}
 header > h1 > img {z-index: -1;position: relative;}
+header > .min-menu {font-family: 'icomoon-freeregular';font-size:25px;color:#b4b4b4;position: absolute;top: 10px;right: 10px;text-decoration: none;display: none;}
+header > .min-menu > span:before {content: "\e9bd";}
 
 .nav-menu {border: 1px solid #D5D5D5; }
 .menu {list-style-type: none;display: block;width: 100%;font-size: 0.9em;position:relative;z-index: 40;}
@@ -31,10 +45,10 @@ header > h1 > img {z-index: -1;position: relative;}
 .main-banner > .active {display: block;}
 
 .tab-banner {display:none; height: 365px;position: relative;}
-.tab-banner img {position: absolute;bottom: 0;right: 20px;z-index: 10;}
-.tab-banner h2 {font-size: 44px;width: 55%;font-weight: 300;color: #b4b4b4;line-height: 50px;position:absolute;top:50px;left:45px;z-index: 20;}
-.tab-banner h2 .text-normal {display:block;font-size: 40px;line-height: 40px;}
-.tab-banner a {text-transform: uppercase;position: absolute;bottom: 50px;left: 45px;}
+.tab-banner > img {position: absolute;bottom: 0;right: 20px;z-index: 10;}
+.tab-banner > h2 {font-size: 44px;width: 55%;font-weight: 300;color: #b4b4b4;line-height: 50px;position:absolute;top:50px;left:45px;z-index: 20;}
+.tab-banner > h2 .text-normal {display:block;font-size: 40px;line-height: 40px;}
+.tab-banner > h2 > a {text-transform: uppercase;font-size: 14px;}
 
 .opt-banner {text-align: center;position: relative;width: 100%;height: 70px;border: 1px solid #D5D5D5;z-index: 30;}
 .ui-tab {
@@ -58,7 +72,7 @@ header > h1 > img {z-index: -1;position: relative;}
 
 .ui-container {display: inline-block;vertical-align: top;width: 69%;margin-right: 3%}
 .ui-container > h2 {font-size: 28px; font-weight: 700;margin-bottom: 20px;color: #272727;}
-.ui-container > p {}
+.ui-container > p {line-height: 1.5;}
 .ui-container > #staff2 {margin-left: 5px;margin-right: 5px;}
 .ui-container > .staff {display: inline-block;vertical-align: top;width: 32%;margin-top: 20px;}
 .ui-container > .staff > img {display: block;margin-bottom: 10px;width: 100%;border: 1px solid #D5D5D5;}
@@ -90,3 +104,23 @@ header > h1 > img {z-index: -1;position: relative;}
 }
 .ui-footer-cols > article > .bq-author {display:block;text-align: right;}
 .ui-footer-cols > article > .bq-author > span {font-weight: 700;font-style: italic;}
+
+.moredata {height: 100px; margin: 20px 0;}
+
+.col-left {float: left; width: 50%;text-align: left;}
+.col-right {float: left; width: 50%;text-align: right;}
+
+.ico-social {font-family: 'icomoon-freeregular';font-size:18px;text-decoration: none;}
+.ico-facebook {color: #3A579C;}
+.ico-facebook:before {content: '\ea8d';}
+.ico-twitter {color: #1FA8E3;}
+.ico-twitter:before {content: '\ea93'}
+.ico-googleplus {color: #C80000;}
+.ico-googleplus:before {content: '\ea89'; }
+
+
+
+
+
+
+

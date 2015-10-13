@@ -3,14 +3,13 @@
 }
 
 @media (max-width: 768px) {
-	.wrapper {width: 768px;}
+	.wrapper {width: 748px;}
 	.grid20 {width: 48%;}
 	.grid22 {width: 48%;}
 
-	.tab-banner img {width: 60%}
-	.tab-banner h2 {font-size: 39px;line-height: 45px;}
-	.tab-banner h2 .text-normal {font-size: 35px;line-height: 35px;}
-	.tab-banner a {bottom: 100px;}
+	.tab-banner > img {width: 60%}
+	.tab-banner > h2 {font-size: 39px;line-height: 45px;}
+	.tab-banner > h2 .text-normal {font-size: 35px;line-height: 35px;}
 
 	.ui-experience h2 {width: 50%;}
 
@@ -18,11 +17,16 @@
 }
 
 @media (max-width: 640px) {
-	.wrapper {width: 640px;}
+	.wrapper {width: 620px;}
+
+	header > .min-menu {display: block;}
 	
-	.tab-banner img {width: 64%}
-	.tab-banner h2 {font-size: 30px;line-height: 35px}
-	.tab-banner h2 .text-normal {font-size: 25px;line-height: 25px;}
+	.nav-menu {display: none;}
+	.menu li {display: block;border: 0;}
+	
+	.tab-banner > img {width: 64%}
+	.tab-banner > h2 {font-size: 30px;line-height: 35px}
+	.tab-banner > h2 .text-normal {font-size: 25px;line-height: 25px;}
 	.ui-tab {width: 100px;height: 100px;padding: 40px 0;font-size: 13px;}
 
 	.ui-container {display: block;width: 100%}
@@ -34,25 +38,57 @@
 }
 
 @media (max-width: 480px) {
-	.wrapper {width: 480px;}
+	.wrapper {width: 470px;}
+
+	header > .min-menu {display: block;}
+	
+	.nav-menu {display: none;}
 	.menu li {display: block;border: 0;}
 	
 	.tab-banner {height: 300px;}
-	.tab-banner img {width: 75%;right: 0;}
-	.tab-banner h2 {font-size: 25px;line-height:30px;top:20px;left:15px;}
-	.tab-banner h2 .text-normal {font-size: 20px; line-height: 20px;}
-	.tab-banner a {bottom: 150px; left: 15px;}
+	.tab-banner > img {width: 75%;right: 0;}
+	.tab-banner > h2 {font-size: 24px;line-height:30px;top:20px;left:15px;}
+	.tab-banner > h2 .text-normal {font-size: 20px; line-height: 20px;}
+	.tab-banner > a {bottom: 120px; left: 15px;}
 
-	.ui-experience {padding:20px;}
+	.ui-experience {padding:10px;}
 	.ui-experience h2 {width: 100%;}
 
-	.main-container {padding: 20px;}
+	.main-container {padding: 10px;}
 
 	.ui-footer-cols > article {margin-bottom: 20px;display: block;}
 	.ui-footer-cols > article.grid20 {width: 100%;}
 	.ui-footer-cols > article.grid22 {width: 100%;}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
+	body {font-size: 12px;}
+	.wrapper {width: 310px;}
+	.grid20 {width: 100%;}
+	.grid22 {width: 100%;}
 
+	.tab-banner {height: 250px;}
+	.tab-banner > img {width: 85%;right:0;}
+	.tab-banner > h2 {font-size: 20px;line-height:25px;top:20px;left:5px;text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);}
+	.tab-banner > h2 .text-normal {font-size: 15px; line-height: 15px;}
+	.tab-banner > h2 > a {font-size: 12px;}
+	.opt-banner {height: 60px;}
+	.ui-tab {width: 80px;height: 80px;padding: 30px 0;font-size: 11px;bottom: 35px;}
+	
+	.ui-experience > h2 {font-size: 20px;}
+	.ui-experience > article {margin-top: 10px;}
+	.ui-experience article > span.ui-exp-desc a {margin-top: 5px;}
+
+	.main-container {padding: 10px; }
+	
+	.ui-container > h2 {font-size: 20px;}
+	.ui-container > p {line-height: 1.3;}
+	.ui-container > #staff2 {margin-left: 2px;margin-right: 2px;}
+	.ui-container > .staff > span {font-size: 12px;}
+
+	.ui-sidebar > h2 {font-size: 20px;}
+	.ui-sidebar > article {display: block;width: 100%;}
+	.ui-sidebar > hr {display: block;}
+
+	.ui-footer-cols > article > h2 {font-size: 20px;}
 }
