@@ -53,4 +53,27 @@ $( document ).ready(function() {
 		$('.nav-menu').slideUp();
 	}
 
+	// var windowWidth = $(window).width();
+	var limit = 769;
+	$(window).resize(function() {
+	    var resW = $(window).width();
+	    // if ( (windowWidth > limit && resW < limit) || (windowWidth < limit && resW > limit) ) {        
+	    //     showMenu();
+	    // }
+	    if ( resW > limit ) {        
+	        showMenu();
+	    } else{
+	    	hideMenu();
+	    }
+	});
+	function showMenu() {
+		$('.nav-menu').show();
+	}
+
+	function hideMenu() {
+		$('.nav-menu').hide();
+	}
+
 });
+
+

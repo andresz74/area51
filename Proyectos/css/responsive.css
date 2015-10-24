@@ -1,5 +1,5 @@
 @media (min-width: 769px) {
-	
+	.nav-menu {display: block;}
 	.ui-tab:hover, .ui-tab.active {background: url(../img/tab_active.png) no-repeat center 20px;}
 }
 
