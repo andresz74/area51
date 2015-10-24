@@ -53,14 +53,10 @@ $( document ).ready(function() {
 		$('.nav-menu').slideUp();
 	}
 
-	// var windowWidth = $(window).width();
 	var limit = 769;
 	$(window).resize(function() {
-	    var resW = $(window).width();
-	    // if ( (windowWidth > limit && resW < limit) || (windowWidth < limit && resW > limit) ) {        
-	    //     showMenu();
-	    // }
-	    if ( resW > limit ) {        
+	    var windowWidth = $(window).width();
+	    if ( windowWidth > limit ) {        
 	        showMenu();
 	    } else{
 	    	hideMenu();
