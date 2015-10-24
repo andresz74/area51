@@ -34,9 +34,16 @@ $( document ).ready(function() {
 	$('.min-menu').click(function(){
 		if (!$('.nav-menu').hasClass('active')) {
 			$('.nav-menu').addClass('active');
+			$('.nav-menu').slideDown();
 		} else{
 			$('.nav-menu').removeClass('active');
+			$('.nav-menu').slideUp();
 		};
 	});
+
+	$('.l-menu').click(function(){
+		$('.nav-menu').slideUp();
+	});
+
 
 });
