@@ -1,33 +1,50 @@
-@media (max-width: 970px) {
+@media (min-width: 769px) {
+	
+	.ui-tab:hover, .ui-tab.active {background: url(../img/tab_active.png) no-repeat center 20px;}
+}
 
+@media (min-width: 769px) and (max-width:969px) {
+	.wrapper {width: 788px;}
 }
 
 @media (max-width: 768px) {
-	.wrapper {width: 748px;}
+	.wrapper {width: 738px;}
 	.grid20 {width: 48%;}
 	.grid22 {width: 48%;}
+
+	header > .min-menu {display: block;}
+	
+	.nav-menu {display: none;}
+	.nav-menu.active {display: block;margin-bottom: 60px;}
+	.menu li {display: block;border: 0;background-color: #D5D5D5;margin: 0;margin-bottom: 1px;}
+	.menu li a {display: block;padding-top: 15px;padding-bottom: 15px;font-size: 18px;text-transform: uppercase;}
+	.menu li.active a {color: #5D5D5B;}
+	/*.menu li.active:before {content: '--> '}*/
 
 	.tab-banner > img {width: 60%}
 	.tab-banner > h2 {font-size: 39px;line-height: 45px;}
 	.tab-banner > h2 .text-normal {font-size: 35px;line-height: 35px;}
+	.ui-tab:hover, .ui-tab.active {background: url(../img/tab_active.png) no-repeat center 20px;}
 
 	.ui-experience h2 {width: 50%;}
 
 	.ui-footer-cols > article {margin-bottom: 20px;}
 }
 
-@media (max-width: 640px) {
-	.wrapper {width: 620px;}
+@media (max-width: 747px) {
+	.wrapper {width: 600px;}
 
 	header > .min-menu {display: block;}
 	
 	.nav-menu {display: none;}
+	.nav-menu.active {display: block;margin-bottom: 60px;}
 	.menu li {display: block;border: 0;}
 	
 	.tab-banner > img {width: 64%}
 	.tab-banner > h2 {font-size: 30px;line-height: 35px}
 	.tab-banner > h2 .text-normal {font-size: 25px;line-height: 25px;}
 	.ui-tab {width: 100px;height: 100px;padding: 40px 0;font-size: 13px;}
+	.ui-tab:hover, .ui-tab.active {background: url(../img/tab_active.png) no-repeat center 10px;}
 
 	.ui-container {display: block;width: 100%}
 
@@ -37,12 +54,17 @@
 	.ui-sidebar > hr {display: none;}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 639px) {
+	.wrapper {width: 580px;}
+}
+
+@media (max-width: 579px) {
 	.wrapper {width: 470px;}
 
 	header > .min-menu {display: block;}
 	
 	.nav-menu {display: none;}
+	.nav-menu.active {display: block;margin-bottom: 60px;}
 	.menu li {display: block;border: 0;}
 	
 	.tab-banner {height: 300px;}
@@ -61,7 +83,12 @@
 	.ui-footer-cols > article.grid22 {width: 100%;}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 469px) {
+	.wrapper {width: 402px;}
+}
+
+
+@media (max-width: 401px) {
 	body {font-size: 12px;}
 	.wrapper {width: 310px;}
 	.grid20 {width: 100%;}
