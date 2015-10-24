@@ -2,6 +2,18 @@ $( document ).ready(function() {
     
 	$('.ui-tab').click(loadTab);
 
+	$('.min-menu').click(function(){
+		if (!$('.nav-menu').hasClass('active')) {
+			muestraMenu();
+		} else{
+			ocultaMenu();
+		};
+	});
+
+	$('.l-menu').click(function(){
+		ocultaMenu();
+	});
+
 	// var tabs = $('.ui-tab').toArray();
 	var tabs = $('.ui-tab');
 	var time = 0;
@@ -31,19 +43,14 @@ $( document ).ready(function() {
 		$(activar).fadeIn(1000).addClass('active');;
 	}
 
-	$('.min-menu').click(function(){
-		if (!$('.nav-menu').hasClass('active')) {
-			$('.nav-menu').addClass('active');
-			$('.nav-menu').slideDown();
-		} else{
-			$('.nav-menu').removeClass('active');
-			$('.nav-menu').slideUp();
-		};
-	});
+	function muestraMenu(){
+		$('.nav-menu').addClass('active');
+		$('.nav-menu').slideDown();
+	}
 
-	$('.l-menu').click(function(){
+	function ocultaMenu(){
+		$('.nav-menu').removeClass('active');
 		$('.nav-menu').slideUp();
-	});
-
+	}
 
 });
